@@ -1,0 +1,17 @@
+/tmp/rtw88/main.o
+/tmp/rtw88/mac80211.o
+/tmp/rtw88/util.o
+/tmp/rtw88/debug.o
+/tmp/rtw88/tx.o
+/tmp/rtw88/rx.o
+/tmp/rtw88/mac.o
+/tmp/rtw88/phy.o
+/tmp/rtw88/coex.o
+/tmp/rtw88/efuse.o
+/tmp/rtw88/fw.o
+/tmp/rtw88/ps.o
+/tmp/rtw88/sec.o
+/tmp/rtw88/bf.o
+/tmp/rtw88/sar.o
+/tmp/rtw88/regd.o
+/tmp/rtw88/wow.o
