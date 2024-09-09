@@ -16,6 +16,15 @@
 #include <linux/workqueue.h>
 
 #include "util.h"
+static inline bool
+cfg80211_ssid_eq(struct cfg80211_ssid *a, struct cfg80211_ssid *b)
+{
+       if (WARN_ON(!a || !b))
+               return false;
+       if (a->ssid_len != b->ssid_len)
+               return false;
+       return memcmp(a->ssid, b->ssid, a->ssid_len) ? false : true;
+}
 
 #define RTW_MAX_MAC_ID_NUM		32
 #define RTW_MAX_SEC_CAM_NUM		32

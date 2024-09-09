@@ -56,7 +56,6 @@ rtw88_core-objs += main.o \
 	   fw.o \
 	   ps.o \
 	   sec.o \
-	   wow.o \
 	   bf.o \
 	   regd.o \
 	   sar.o
@@ -77,7 +76,6 @@ rtw88_8822bu-objs		:= rtw8822bu.o
 
 obj-m       += rtw88_8822c.o
 rtw88_8822c-objs                := rtw8822c.o rtw8822c_table.o
-
 
 obj-m      += rtw88_8822cu.o
 rtw88_8822cu-objs		:= rtw8822cu.o

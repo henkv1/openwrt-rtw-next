@@ -177,7 +177,7 @@ void rtw_update_rx_freq_from_ie(struct rtw_dev *rtwdev, struct sk_buff *skb,
 		goto fill_rx_status;
 
 	channel_number = cfg80211_get_ies_channel_number(variable, ielen,
-							 NL80211_BAND_2GHZ);
+							 NL80211_BAND_2GHZ, CFG80211_BSS_FTYPE_UNKNOWN);
 	if (channel_number != -1)
 		channel = channel_number;
 
